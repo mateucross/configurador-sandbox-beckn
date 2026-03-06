@@ -184,4 +184,4 @@ Pronto seu Sandbox da rede Beckn já deve estar funcionando.
 
 ### Agora utilize este repositorio para rodar uma aplicação WEB que vai interagir com o Sandbox da rede beckn.
 
-link: 
+link: https://github.com/mateucross/buscador-cursos
