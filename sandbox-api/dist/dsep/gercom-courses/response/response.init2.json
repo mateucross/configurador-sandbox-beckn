@@ -1,0 +1,235 @@
+{
+  "context": {
+    "domain": "dsep:gercom-courses",
+    "version": "1.1.0",
+    "action": "on_init",
+    "bap_id": "ps-bap-network.becknprotocol.io",
+    "bap_uri": "https://ps-bap-network.becknprotocol.io/",
+    "location": {
+      "city": {
+        "name": "Belém",
+        "code": "std:091"
+      },
+      "country": {
+        "name": "Brasil",
+        "code": "BRA"
+      }
+    },
+    "bpp_id": "beckn-sandbox-bpp.becknprotocol.io",
+    "bpp_uri": "https://sandbox-bpp-network.becknprotocol.io/",
+    "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
+    "message_id": "e66e2227-4058-424c-9424-9f77324555f4",
+    "ttl": "PT10M",
+    "timestamp": "2023-08-02T12:10:00.000Z"
+  },
+  "message": {
+    "order": {
+      "provider": {
+        "id": "GERCOM",
+        "descriptor": {
+          "name": "GERCOM - UFPA",
+          "short_desc": "O GERCOM é um laboratório de pesquisa especializado em redes de computadores fundado em 2003.",
+          "images": [
+            {
+              "url": "https://gercom.ufpa.br/wp-content/uploads/2024/04/gercom-95x72.png",
+              "size_type": "sm"
+            }
+          ]
+        },
+        "categories": [
+          {
+            "id": "BLOCKCHAIN-COURSES",
+            "descriptor": {
+              "code": "BLOCKCHAIN-COURSES",
+              "name": "Blockchain Courses"
+            }
+          },
+          {
+            "id": "INTERNET-OF-THINGS-COURSES",
+            "descriptor": {
+              "code": "INTERNET-OF-THINGS-COURSES",
+              "name": "Internet of Things Courses"
+            }
+          },
+          {
+            "id": "SOFTWARE-DEFINED-NETWORKING-COURSES",
+            "descriptor": {
+              "code": "SOFTWARE-DEFINED-NETWORKING-COURSES",
+              "name": "Software Defined Networking Courses"
+            }
+          },
+          {
+            "id": "QUANTUM-NETWORKS-COURSES",
+            "descriptor": {
+              "code": "QUANTUM-NETWORKS-COURSES",
+              "name": "Quantum Networks Courses"
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "a1e6f3c4-2b3d-4e8f-9c6e-2f4b8e5d9c3a",
+          "quantity": {
+            "maximum": {
+              "count": 1
+            }
+          },
+          "descriptor": {
+            "name": "Introdução às Redes Quânticas",
+            "short_desc": "Redes quânticas utilizam princípios da mecânica quântica para transmitir informações de forma segura.",
+            "long_desc": "O curso 'Introdução às Redes Quânticas' apresenta fundamentos e aplicações da comunicação quântica. Aborda superposição, entrelaçamento, criptografia quântica e desafios na implementação em larga escala.",
+            "images": [
+              {
+                "url": "https://img.odcdn.com.br/wp-content/uploads/2020/09/20200907093904.jpg"
+              }
+            ],
+            "media": [
+              {
+                "url": "https://www.coursera.org/learn/quantum-networking"
+              }
+            ]
+          },
+          "creator": {
+            "descriptor": {
+              "name": "Prof. João Silva",
+              "short_desc": "Especialista em computação quântica e redes de comunicação.",
+              "long_desc": "Com Ph.D. em Física pela Universidade de Cambridge, o Prof. João Silva é referência em computação e redes quânticas, com mais de 10 anos de experiência em pesquisa.",
+              "images": [
+                {
+                  "url": "https://randomuser.me/api/portraits/men/20.jpg"
+                }
+              ]
+            }
+          },
+          "price": {
+            "currency": "BRL",
+            "value": "10.00"
+          },
+          "category_ids": ["QUANTUM-NETWORKS-COURSES"],
+          "rating": "4.7",
+          "rateable": true,
+          "add-ons": [
+            {
+              "id": "turma_1_quantum",
+              "descriptor": {
+                "name": "Turma 1 - Quantum"
+              }
+            }
+          ],
+          "tags": [
+            {
+              "descriptor": {
+                "code": "content-metadata",
+                "name": "Metadados do conteúdo"
+              },
+              "list": [
+                {
+                  "descriptor": {
+                    "code": "learner-level",
+                    "name": "Nível do aprendiz"
+                  },
+                  "value": "Avançado"
+                },
+                {
+                  "descriptor": {
+                    "code": "learning-objective",
+                    "name": "Objetivo de aprendizagem"
+                  },
+                  "value": "Compreender os princípios fundamentais da mecânica quântica e analisar aplicações práticas como criptografia e teleportação quântica."
+                },
+                {
+                  "descriptor": {
+                    "code": "prerequisite",
+                    "name": "Pré-requisito"
+                  },
+                  "value": "Conhecimento básico de física, matemática e redes de computadores"
+                },
+                {
+                  "descriptor": {
+                    "code": "lang-code",
+                    "name": "Código de idioma"
+                  },
+                  "value": "pt-BR"
+                },
+                {
+                  "descriptor": {
+                    "code": "course-duration",
+                    "name": "Duração do curso"
+                  },
+                  "value": "PT40H"
+                }
+              ],
+              "display": true
+            }
+          ]
+        }
+      ],
+      "fulfillments": [
+        {
+          "agent": {
+            "person": {
+              "name": "GERCOM"
+            },
+            "contact": {
+              "email": "contato@gercom.ufpa.br"
+            }
+          },
+          "customer": {
+            "person": {
+              "name": "Mateus Cruz",
+              "age": "25",
+              "gender": "male",
+              "tags": [
+                {
+                  "descriptor": {
+                    "code": "professional-details",
+                    "name": "Detalhes Profissionais"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "profession",
+                        "name": "profissão"
+                      },
+                      "value": "estudante"
+                    }
+                  ],
+                  "display": true
+                }
+              ]
+            },
+            "contact": {
+              "phone": "+55-91-99999-9999",
+              "email": "mateus@exemplo.com"
+            }
+          }
+        }
+      ],
+      "quote": {
+        "price": {
+          "currency": "BRL",
+          "value": "10.00"
+        }
+      },
+      "billing": {
+        "name": "Mateus Cruz",
+        "phone": "+55-91-99999-9999",
+        "email": "mateus@exemplo.com",
+        "address": "Av. Principal, 123, Belém, PA"
+      },
+      "payments": [
+        {
+          "params": {
+            "amount": "10.00",
+            "currency": "BRL"
+          },
+          "url": "https://sandbox-bpp-network.becknprotocol.io/payment?order_id=gercom-order-678",
+          "type": "PRE-ORDER",
+          "status": "NOT-PAID",
+          "collected_by": "bpp"
+        }
+      ]
+    }
+  }
+}

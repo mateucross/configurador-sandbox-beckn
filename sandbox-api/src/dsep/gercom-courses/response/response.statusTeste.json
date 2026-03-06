@@ -1,0 +1,328 @@
+{
+  "context": {
+    "domain": "dsep:gercom-courses",
+    "action": "on_status",
+    "version": "1.1.0",
+    "bap_id": "ps-bap-network.becknprotocol.io",
+    "bap_uri": "https://ps-bap-network.becknprotocol.io/",
+    "bpp_id": "beckn-sandbox-bpp.becknprotocol.io",
+    "bpp_uri": "https://sandbox-bpp-network.becknprotocol.io/",
+    "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
+    "message_id": "af5480c0-3e8d-42c1-8385-acab7def1c51",
+    "ttl": "PT10M",
+    "timestamp": "2023-08-02T12:20:00.000Z",
+    "location": {
+      "city": {
+        "name": "Belém",
+        "code": "std:091"
+      },
+      "country": {
+        "name": "Brasil",
+        "code": "BRA"
+      }
+    }
+  },
+  "message": {
+    "order": {
+      "id": "54321",
+      "provider": {
+        "id": "GERCOM",
+        "descriptor": {
+          "name": "GERCOM - UFPA",
+          "short_desc": "O GERCOM é um laboratório de pesquisa especializado em redes de computadores fundado em 2003.",
+          "images": [
+            {
+              "url": "https://gercom.ufpa.br/wp-content/uploads/2024/04/gercom-95x72.png",
+              "size_type": "sm"
+            }
+          ]
+        },
+        "categories": [
+          {
+            "id": "BLOCKCHAIN-COURSES",
+            "descriptor": {
+              "code": "BLOCKCHAIN-COURSES",
+              "name": "Blockchain Courses"
+            }
+          },
+          {
+            "id": "INTERNET-OF-THINGS-COURSES",
+            "descriptor": {
+              "code": "INTERNET-OF-THINGS-COURSES",
+              "name": "Internet of Things Courses"
+            }
+          },
+          {
+            "id": "SOFTWARE-DEFINED-NETWORKING-COURSES",
+            "descriptor": {
+              "code": "SOFTWARE-DEFINED-NETWORKING-COURSES",
+              "name": "Software Defined Networking Courses"
+            }
+          },
+          {
+            "id": "QUANTUM-NETWORKS-COURSES",
+            "descriptor": {
+              "code": "QUANTUM-NETWORKS-COURSES",
+              "name": "Quantum Networks Courses"
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "d4975df5-b18c-4772-80ad-368669856d52",
+          "quantity": {
+            "maximum": {
+              "count": 1
+            }
+          },
+          "descriptor": {
+            "name": "Introdução ao Blockchain",
+            "short_desc": "Blockchain é uma tecnologia descentralizada de registro, transparente e segura por meio de blocos encadeados.",
+            "long_desc": "O curso 'Introdução ao Blockchain' oferece uma visão abrangente sobre a tecnologia blockchain, explorando seus conceitos fundamentais, arquitetura e aplicações práticas. Os participantes aprenderão sobre a estrutura de blocos, mecanismos de consenso, contratos inteligentes e casos de uso em diversas indústrias.",
+            "images": [
+              {
+                "url": "https://ajuda.foxbit.com.br/wp-content/uploads/2021/03/Blockchain.jpeg"
+              }
+            ],
+            "media": [
+              {
+                "url": "https://example.com/blockchain-course-preview"
+              }
+            ]
+          },
+          "creator": {
+            "descriptor": {
+              "name": "Prof. Dr. Cássio Almeida",
+              "short_desc": "Um teórico brilhante, obcecado pelos fundamentos da computação e pelo potencial da computação quântica.",
+              "long_desc": "Com Ph.D. em Ciência da Computação pela USP, o Prof. Dr. Cássio Almeida é uma autoridade em redes e comunicação multimídia, com mais de 15 anos de experiência em pesquisa и docência.",
+              "images": [
+                {
+                  "url": "https://randomuser.me/api/portraits/men/69.jpg"
+                }
+              ]
+            }
+          },
+          "price": {
+            "currency": "BRL",
+            "value": "0.00"
+          },
+          "category_ids": ["BLOCKCHAIN-COURSES"],
+          "rating": "4.5",
+          "rateable": true,
+          "add-ons": [
+            {
+              "id": "material-complementar",
+              "descriptor": {
+                "name": "Material Complementar",
+                "long_desc": "Material adicional com artigos e exercícios práticos sobre Blockchain",
+                "media": [
+                  {
+                    "mimetype": "application/pdf",
+                    "url": "https://gercom.ufpa.br/cursos/blockchain/material-complementar.pdf"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "quiz-inicial",
+              "descriptor": {
+                "name": "Quiz de Nivelamento",
+                "long_desc": "Teste seus conhecimentos iniciais sobre blockchain antes de começar o curso",
+                "media": [
+                  {
+                    "mimetype": "text/html",
+                    "url": "https://gercom.ufpa.br/cursos/blockchain/quiz-inicial"
+                  }
+                ]
+              }
+            }
+          ],
+          "tags": [
+            {
+              "descriptor": {
+                "code": "content-metadata",
+                "name": "Metadados do conteúdo"
+              },
+              "list": [
+                {
+                  "descriptor": {
+                    "code": "learner-level",
+                    "name": "Nível do aprendiz"
+                  },
+                  "value": "Intermediário"
+                },
+                {
+                  "descriptor": {
+                    "code": "learning-objective",
+                    "name": "Objetivo de aprendizagem"
+                  },
+                  "value": "Compreender os fundamentos da tecnologia blockchain, construir um smart contract básico e analisar casos de uso prático."
+                },
+                {
+                  "descriptor": {
+                    "code": "prerequisite",
+                    "name": "Pré-requisito"
+                  },
+                  "value": "Conhecimento básico de lógica de programação; noções de criptografia são úteis, mas não obrigatórias"
+                },
+                {
+                  "descriptor": {
+                    "code": "lang-code",
+                    "name": "Código de idioma"
+                  },
+                  "value": "pt-BR"
+                },
+                {
+                  "descriptor": {
+                    "code": "course-duration",
+                    "name": "Duração do curso"
+                  },
+                  "value": "PT35H"
+                }
+              ],
+              "display": true
+            }
+          ]
+        }
+      ],
+      "fulfillments": [
+        {
+          "state": {
+            "descriptor": {
+              "code": "COMPLETED",
+              "name": "CONCLUÍDO"
+            },
+            "updated_at": "2023-08-02T12:20:00.000Z"
+          },
+          "agent": {
+            "person": {
+              "name": "GERCOM"
+            },
+            "contact": {
+              "email": "contato@gercom.ufpa.br"
+            }
+          },
+          "customer": {
+            "person": {
+              "name": "João Silva",
+              "age": "25",
+              "gender": "male",
+              "tags": [
+                {
+                  "descriptor": {
+                    "code": "professional-details",
+                    "name": "Detalhes Profissionais"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "profession",
+                        "name": "profissão"
+                      },
+                      "value": "estudante"
+                    }
+                  ],
+                  "display": true
+                }
+              ]
+            },
+            "contact": {
+              "phone": "+55-91-99999-9999",
+              "email": "joao.silva@example.com"
+            }
+          },
+          "stops": [
+            {
+              "id": "0",
+              "instructions": {
+                "name": "video-introducao",
+                "long_desc": "Vídeo introdutório sobre os conceitos básicos de blockchain",
+                "media": [
+                  {
+                    "mimetype": "video/mp4",
+                    "url": "https://gercom.ufpa.br/cursos/blockchain/video-introducao"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "1",
+              "instructions": {
+                "name": "aula-conceitos",
+                "long_desc": "Aula sobre os conceitos fundamentais de criptografia e consenso",
+                "media": [
+                  {
+                    "mimetype": "video/mp4",
+                    "url": "https://gercom.ufpa.br/cursos/blockchain/aula-conceitos"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "2",
+              "instructions": {
+                "name": "material-teorico",
+                "long_desc": "Material teórico complementar sobre arquitetura de blockchain",
+                "media": [
+                  {
+                    "mimetype": "application/pdf",
+                    "url": "https://gercom.ufpa.br/cursos/blockchain/material-teorico"
+                  }
+                ]
+              }
+            }
+          ],
+          "tags": [
+            {
+              "descriptor": {
+                "code": "course-completion-details",
+                "name": "Detalhes de Conclusão do Curso"
+              },
+              "list": [
+                {
+                  "descriptor": {
+                    "code": "course-certificate",
+                    "name": "Certificado do Curso"
+                  },
+                  "value": "https://gercom.ufpa.br/cursos/blockchain/certificado"
+                },
+                {
+                  "descriptor": {
+                    "code": "course-badge",
+                    "name": "Insígnia do Curso"
+                  },
+                  "value": "https://gercom.ufpa.br/cursos/blockchain/insignia"
+                }
+              ],
+              "display": true
+            }
+          ]
+        }
+      ],
+      "quote": {
+        "price": {
+          "currency": "BRL",
+          "value": "0.00"
+        }
+      },
+      "billing": {
+        "name": "João Silva",
+        "phone": "+55-91-99999-9999",
+        "email": "joao.silva@example.com",
+        "address": "Av. Principal, 123, Belém, PA"
+      },
+      "payments": [
+        {
+          "params": {
+            "amount": "0.00",
+            "currency": "BRL"
+          },
+          "type": "PRE-ORDER",
+          "status": "PAID",
+          "collected_by": "bpp"
+        }
+      ]
+    }
+  }
+}

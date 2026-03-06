@@ -1,0 +1,194 @@
+{
+  "context": {
+    "domain": "dsep:gercom-courses",
+    "version": "1.1.0",
+    "action": "on_select",
+    "bap_id": "ps-bap-network.becknprotocol.io",
+    "bap_uri": "https://ps-bap-network.becknprotocol.io/",
+    "location": {
+      "city": {
+        "name": "Belém",
+        "code": "std:091"
+      },
+      "country": {
+        "name": "Brasil",
+        "code": "BRA"
+      }
+    },
+    "bpp_id": "beckn-sandbox-bpp.becknprotocol.io",
+    "bpp_uri": "https://sandbox-bpp-network.becknprotocol.io/",
+    "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
+    "message_id": "185efb3d-0923-4d34-bf6b-e1ddda6c7ad2",
+    "ttl": "PT10M",
+    "timestamp": "2023-08-02T12:05:00.000Z"
+  },
+  "message": {
+    "order": {
+      "provider": {
+        "id": "GERCOM",
+        "descriptor": {
+          "name": "GERCOM - UFPA",
+          "short_desc": "O GERCOM é um laboratório de pesquisa especializado em redes de computadores fundado em 2003.",
+          "images": [
+            {
+              "url": "https://gercom.ufpa.br/wp-content/uploads/2024/04/gercom-95x72.png",
+              "size_type": "sm"
+            }
+          ]
+        },
+        "categories": [
+          {
+            "id": "BLOCKCHAIN-COURSES",
+            "descriptor": {
+              "code": "BLOCKCHAIN-COURSES",
+              "name": "Blockchain Courses"
+            }
+          },
+          {
+            "id": "INTERNET-OF-THINGS-COURSES",
+            "descriptor": {
+              "code": "INTERNET-OF-THINGS-COURSES",
+              "name": "Internet of Things Courses"
+            }
+          },
+          {
+            "id": "SOFTWARE-DEFINED-NETWORKING-COURSES",
+            "descriptor": {
+              "code": "SOFTWARE-DEFINED-NETWORKING-COURSES",
+              "name": "Software Defined Networking Courses"
+            }
+          },
+          {
+            "id": "QUANTUM-NETWORKS-COURSES",
+            "descriptor": {
+              "code": "QUANTUM-NETWORKS-COURSES",
+              "name": "Quantum Networks Courses"
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "d4975df5-b18c-4772-80ad-368669856d52",
+          "quantity": {
+            "maximum": {
+              "count": 1
+            }
+          },
+          "descriptor": {
+            "name": "Introdução ao Blockchain",
+            "short_desc": "Blockchain é uma tecnologia descentralizada de registro, transparente e segura por meio de blocos encadeados.",
+            "long_desc": "O curso 'Introdução ao Blockchain' oferece uma visão abrangente sobre a tecnologia blockchain, explorando seus conceitos fundamentais, arquitetura e aplicações práticas. Os participantes aprenderão sobre a estrutura de blocos, mecanismos de consenso, contratos inteligentes e casos de uso em diversas indústrias.",
+            "images": [
+              {
+                "url": "https://i0.wp.com/blog.dsacademy.com.br/wp-content/uploads/2018/07/O-Que-e%CC%81-a-Tecnologia-Blockchain.png?fit=702%2C389&ssl=1"
+              }
+            ],
+            "media": [
+              {
+                "url": "https://example.com/blockchain-course-preview"
+              }
+            ]
+          },
+          "creator": {
+            "descriptor": {
+              "name": "Prof. Dr. Cássio Almeida",
+              "short_desc": "Um teórico brilhante, obcecado pelos fundamentos da computação e pelo potencial da computação quântica.",
+              "long_desc": "Com Ph.D. em Ciência da Computação pela USP, o Prof. Dr. Cássio Almeida é uma autoridade em redes e comunicação multimídia, com mais de 15 anos de experiência em pesquisa e docência.",
+              "images": [
+                {
+                  "url": "https://randomuser.me/api/portraits/men/69.jpg"
+                }
+              ]
+            }
+          },
+          "price": {
+            "currency": "BRL",
+            "value": "0.00"
+          },
+          "category_ids": ["BLOCKCHAIN-COURSES"],
+          "rating": "4.5",
+          "rateable": true,
+          "add_ons": [
+            {
+              "id": "turma_1",
+              "descriptor": {
+                "name": "Turma 1"
+              }
+            },
+            {
+              "id": "turma_2",
+              "descriptor": {
+                "name": "Turma 2"
+              }
+            }
+          ],
+          "tags": [
+            {
+              "descriptor": {
+                "code": "content-metadata",
+                "name": "Metadados do conteúdo"
+              },
+              "list": [
+                {
+                  "descriptor": {
+                    "code": "learner-level",
+                    "name": "Nível do aprendiz"
+                  },
+                  "value": "Intermediário"
+                },
+                {
+                  "descriptor": {
+                    "code": "learning-objective",
+                    "name": "Objetivo de aprendizagem"
+                  },
+                  "value": "Compreender os fundamentos da tecnologia blockchain, construir um smart contract básico e analisar casos de uso prático."
+                },
+                {
+                  "descriptor": {
+                    "code": "prerequisite",
+                    "name": "Pré-requisito"
+                  },
+                  "value": "Conhecimento básico de lógica de programação; noções de criptografia são úteis, mas não obrigatórias"
+                },
+                {
+                  "descriptor": {
+                    "code": "lang-code",
+                    "name": "Código de idioma"
+                  },
+                  "value": "pt-BR"
+                },
+                {
+                  "descriptor": {
+                    "code": "course-duration",
+                    "name": "Duração do curso"
+                  },
+                  "value": "PT35H"
+                }
+              ],
+              "display": true
+            }
+          ]
+        }
+      ],
+      "fulfillments": [
+        {
+          "agent": {
+            "person": {
+              "name": "GERCOM"
+            },
+            "contact": {
+              "email": "contato@gercom.ufpa.br"
+            }
+          }
+        }
+      ],
+      "quote": {
+        "price": {
+          "currency": "BRL",
+          "value": "0.00"
+        }
+      }
+    }
+  }
+}

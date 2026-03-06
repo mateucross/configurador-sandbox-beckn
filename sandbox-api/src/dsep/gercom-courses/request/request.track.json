@@ -1,0 +1,28 @@
+{
+  "context": {
+    "domain": "dsep:gercom-courses",
+    "action": "track",
+    "location": {
+      "city": {
+        "name": "Bangalore",
+        "code": "std:080"
+      },
+      "country": {
+        "name": "India",
+        "code": "IND"
+      }
+    },
+    "version": "1.1.0",
+    "bap_id": "bap-network",
+    "bap_uri": "http://bap-network:5002",
+    "bpp_id": "bpp-network",
+    "bpp_uri": "http://bpp-network:6002",
+    "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62195",
+    "message_id": "2507d8c2-a755-4b17-b4c1-eeb4e57ecb11",
+    "ttl": "PT10M",
+    "timestamp": "2023-02-23T08:09:02.172Z"
+  },
+  "message": {
+    "order_id": "d4975df5"
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "context": {
+    "domain": "dsep:gercom-courses",
+    "version": "1.1.0",
+    "action": "on_search",
+    "bap_id": "ps-bap-network.becknprotocol.io",
+    "bap_uri": "https://ps-bap-network.becknprotocol.io/",
+    "location": {
+      "city": {
+        "name": "Belém",
+        "code": "std:091"
+      },
+      "country": {
+        "name": "Brasil",
+        "code": "BRA"
+      }
+    },
+    "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
+    "message_id": "baba996b-45cc-4542-a69c-88f8c77b3cc1",
+    "ttl": "PT10M",
+    "timestamp": "2023-08-02T11:53:35.568Z",
+    "bpp_id": "beckn-sandbox-bpp.becknprotocol.io",
+    "bpp_uri": "https://sandbox-bpp-network.becknprotocol.io/"
+  },
+  "message": {
+    "catalog": {
+      "descriptor": {
+        "name": "Catálogo de Cursos - GERCOM"
+      },
+      "providers": [
+        {
+          "id": "GERCOM",
+          "descriptor": {
+            "name": "GERCOM - UFPA",
+            "short_desc": "O GERCOM é um laboratório de pesquisa especializado em redes de computadores fundado em 2003.",
+            "long_desc": "Com um compromisso contínuo com a inovação, o GERCOM busca se tornar um laboratório de excelência em Redes de Computadores e Comunicação Multimídia, apoiando órgãos governamentais e empresas privadas com tecnologia de ponta e profissionais altamente qualificados.",
+            "images": [
+              {
+                "url": "https://gercom.ufpa.br/wp-content/uploads/2024/04/gercom-95x72.png",
+                "size_type": "sm"
+              }
+            ]
+          },
+          "categories": [
+            {
+              "id": "BLOCKCHAIN-COURSES",
+              "descriptor": {
+                "code": "BLOCKCHAIN-COURSES",
+                "name": "Blockchain Courses"
+              }
+            },
+            {
+              "id": "INTERNET-OF-THINGS-COURSES",
+              "descriptor": {
+                "code": "INTERNET-OF-THINGS-COURSES",
+                "name": "Internet of Things Courses"
+              }
+            },
+            {
+              "id": "SOFTWARE-DEFINED-NETWORKING-COURSES",
+              "descriptor": {
+                "code": "SOFTWARE-DEFINED-NETWORKING-COURSES",
+                "name": "Software Defined Networking Courses"
+              }
+            },
+            {
+              "id": "QUANTUM-NETWORKS-COURSES",
+              "descriptor": {
+                "code": "QUANTUM-NETWORKS-COURSES",
+                "name": "Quantum Networks Courses"
+              }
+            }
+          ],
+          "items": [
+            {
+              "id": "d4975df5-b18c-4772-80ad-368669856d52",
+              "quantity": {
+                "maximum": {
+                  "count": 1
+                }
+              },
+              "descriptor": {
+                "name": "Introdução ao Blockchain",
+                "short_desc": "Blockchain é uma tecnologia descentralizada de registro, transparente e segura por meio de blocos encadeados.",
+                "long_desc": "O curso 'Introdução ao Blockchain' oferece uma visão abrangente sobre a tecnologia blockchain, explorando seus conceitos fundamentais, arquitetura e aplicações práticas. Os participantes aprenderão sobre a estrutura de blocos, mecanismos de consenso, contratos inteligentes e casos de uso em diversas indústrias.",
+                "images": [
+                  {
+                    "url": "https://ajuda.foxbit.com.br/wp-content/uploads/2021/03/Blockchain.jpeg"
+                  }
+                ],
+                "media": [
+                  {
+                    "url": "https://example.com/blockchain-course-preview"
+                  }
+                ]
+              },
+              "creator": {
+                "descriptor": {
+                  "name": "Prof. Dr. Cássio Almeida",
+                  "short_desc": "Um teórico brilhante, obcecado pelos fundamentos da computação e pelo potencial da computação quântica.",
+                  "long_desc": "Com Ph.D. em Ciência da Computação pela USP, o Prof. Dr. Cássio Almeida é uma autoridade em redes e comunicação multimídia, com mais de 15 anos de experiência em pesquisa e docência.",
+                  "images": [
+                    {
+                      "url": "https://randomuser.me/api/portraits/men/69.jpg"
+                    }
+                  ]
+                }
+              },
+              "price": {
+                "currency": "BRL",
+                "value": "0,00"
+              },
+              "category_ids": ["BLOCKCHAIN-COURSES"],
+              "rating": "4.5",
+              "rateable": true,
+              "tags": [
+                {
+                  "descriptor": {
+                    "code": "content-metadata",
+                    "name": "Metadados do conteúdo"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "learner-level",
+                        "name": "Nível do aprendiz"
+                      },
+                      "value": "Intermediário"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "learning-objective",
+                        "name": "Objetivo de aprendizagem"
+                      },
+                      "value": "Compreender os fundamentos da tecnologia blockchain, construir um smart contract básico e analisar casos de uso prático."
+                    },
+                    {
+                      "descriptor": {
+                        "code": "prerequisite",
+                        "name": "Pré-requisito"
+                      },
+                      "value": "Conhecimento básico de lógica de programação; noções de criptografia são úteis, mas não obrigatórias"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "lang-code",
+                        "name": "Código de idioma"
+                      },
+                      "value": "pt-BR"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "course-duration",
+                        "name": "Duração do curso"
+                      },
+                      "value": "PT35H"
+                    }
+                  ],
+                  "display": true
+                }
+              ]
+            },
+            {
+              "id": "a1e6f3c4-2b3d-4e8f-9c6e-2f4b8e5d9c3a",
+              "quantity": {
+                "maximum": {
+                  "count": 1
+                }
+              },
+              "descriptor": {
+                "name": "Introdução às Redes Quânticas",
+                "short_desc": "Redes quânticas utilizam princípios da mecânica quântica para transmitir informações de forma segura.",
+                "long_desc": "O curso 'Introdução às Redes Quânticas' apresenta fundamentos e aplicações da comunicação quântica. Aborda superposição, entrelaçamento, criptografia quântica e desafios na implementação em larga escala.",
+                "images": [
+                  {
+                    "url": "https://img.odcdn.com.br/wp-content/uploads/2020/09/20200907093904.jpg"
+                  }
+                ],
+                "media": [
+                  {
+                    "url": "https://www.coursera.org/learn/quantum-networking"
+                  }
+                ]
+              },
+              "creator": {
+                "descriptor": {
+                  "name": "Prof. João Silva",
+                  "short_desc": "Especialista em computação quântica e redes de comunicação.",
+                  "long_desc": "Com Ph.D. em Física pela Universidade de Cambridge, o Prof. João Silva é referência em computação e redes quânticas, com mais de 10 anos de experiência em pesquisa.",
+                  "images": [
+                    {
+                      "url": "https://randomuser.me/api/portraits/men/20.jpg"
+                    }
+                  ]
+                }
+              },
+              "price": {
+                "currency": "BRL",
+                "value": "10,00"
+              },
+              "category_ids": ["QUANTUM-NETWORKS-COURSES"],
+              "rating": "4.7",
+              "rateable": true,
+              "tags": [
+                {
+                  "descriptor": {
+                    "code": "content-metadata",
+                    "name": "Metadados do conteúdo"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "learner-level",
+                        "name": "Nível do aprendiz"
+                      },
+                      "value": "Avançado"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "learning-objective",
+                        "name": "Objetivo de aprendizagem"
+                      },
+                      "value": "Compreender os princípios fundamentais da mecânica quântica e analisar aplicações práticas como criptografia e teleportação quântica."
+                    },
+                    {
+                      "descriptor": {
+                        "code": "prerequisite",
+                        "name": "Pré-requisito"
+                      },
+                      "value": "Conhecimento básico de física, matemática e redes de computadores"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "lang-code",
+                        "name": "Código de idioma"
+                      },
+                      "value": "pt-BR"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "course-duration",
+                        "name": "Duração do curso"
+                      },
+                      "value": "PT40H"
+                    }
+                  ],
+                  "display": true
+                }
+              ]
+            }
+          ],
+          "fulfillments": [
+            {
+              "agent": {
+                "person": {
+                  "name": "GERCOM"
+                },
+                "contact": {
+                  "email": "contato@gercom.ufpa.br"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

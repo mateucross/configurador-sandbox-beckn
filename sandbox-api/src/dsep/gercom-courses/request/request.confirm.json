@@ -1,0 +1,67 @@
+{
+  "context": {
+    "domain": "dsep:gercom-courses",
+    "action": "confirm",
+    "version": "1.1.0",
+    "bap_id": "bap-network",
+    "bap_uri": "http://bap-network:5002",
+    "bpp_id": "bpp-network",
+    "bpp_uri": "http://bpp-network:6002",
+    "location": {
+      "city": {
+        "name": "Bangalore",
+        "code": "std:080"
+      },
+      "country": {
+        "name": "India",
+        "code": "IND"
+      }
+    },
+    "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
+    "message_id": "6b27bf2c-2157-46e4-807b-2530c1167d7b",
+    "ttl": "PT10M",
+    "timestamp": "2023-02-15T15:18:33.777Z"
+  },
+  "message": {
+    "order": {
+      "provider": {
+        "id": "INFOSYS"
+      },
+      "items": [
+        {
+          "id": "d4975df5-b18c-4772-80ad-368669856d52"
+        }
+      ],
+      "billing": {
+        "name": "Jane Doe",
+        "phone": "+91-9663088848",
+        "email": "jane.doe@example.com",
+        "address": "No 27, XYZ Lane, etc"
+      },
+      "fulfillments": [
+        {
+          "customer": {
+            "person": {
+              "name": "Jane Doe",
+              "age": "13",
+              "gender": "female"
+            },
+            "contact": {
+              "phone": "+91-9663088848",
+              "email": "jane.doe@example.com"
+            }
+          }
+        }
+      ],
+      "payments": [
+        {
+          "params": {
+            "amount": "150",
+            "currency": "INR"
+          },
+          "status": "PAID"
+        }
+      ]
+    }
+  }
+}

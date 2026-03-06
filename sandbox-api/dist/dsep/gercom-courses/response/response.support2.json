@@ -1,0 +1,45 @@
+{
+  "context": {
+    "domain": "dsep:gercom-courses",
+    "action": "on_support",
+    "version": "1.1.0",
+    "bap_id": "ps-bap-network.becknprotocol.io",
+    "bap_uri": "https://ps-bap-network.becknprotocol.io/",
+    "bpp_id": "beckn-sandbox-bpp.becknprotocol.io",
+    "bpp_uri": "https://sandbox-bpp-network.becknprotocol.io/",
+    "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
+    "message_id": "0d30bfbf-87b8-43d2-8f95-36ebb9a24fd6",
+    "ttl": "PT10M",
+    "timestamp": "2023-02-15T15:14:30.560Z",
+    "location": {
+      "city": {
+        "name": "Belém",
+        "code": "std:091"
+      },
+      "country": {
+        "name": "Brasil",
+        "code": "BRA"
+      }
+    }
+  },
+  "message": {
+    "support": {
+      "ref_id": "GERCOM-support-456",
+      "order_id": "gercom-order-67890",
+      "callback_phone": "+55-91-98888-8888",
+      "email": "contato@gercom.ufpa.br",
+      "phone": "+55-91-99999-9998",
+      "url": "https://gercom.ufpa.br/suporte",
+      "docs": [
+        {
+          "descriptor": {
+            "name": "Perguntas Frequentes - Redes Quânticas",
+            "short_desc": "Perguntas frequentes e problemas comuns sobre o curso de redes quânticas"
+          },
+          "url": "https://gercom.ufpa.br/faq-quantum.pdf",
+          "mime_type": "application/pdf"
+        }
+      ]
+    }
+  }
+}

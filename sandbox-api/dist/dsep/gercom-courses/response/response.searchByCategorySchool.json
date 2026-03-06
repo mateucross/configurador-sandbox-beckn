@@ -1,0 +1,444 @@
+{
+  "context": {
+    "domain": "dsep:gercom-courses",
+    "version": "1.1.0",
+    "action": "on_search",
+    "bap_id": "ps-bap-network.becknprotocol.io",
+    "bap_uri": "https://ps-bap-network.becknprotocol.io/",
+    "location": {
+      "city": {
+        "name": "Belém",
+        "code": "std:091"
+      },
+      "country": {
+        "name": "Brasil",
+        "code": "BRA"
+      }
+    },
+    "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
+    "message_id": "baba996b-45cc-4542-a69c-88f8c77b3cc1",
+    "ttl": "PT10M",
+    "timestamp": "2023-08-02T11:53:35.568Z",
+    "bpp_id": "beckn-sandbox-bpp.becknprotocol.io",
+    "bpp_uri": "https://sandbox-bpp-network.becknprotocol.io/"
+  },
+  "message": {
+    "catalog": {
+      "descriptor": {
+        "name": "Catálogo de Cursos - GERCOM"
+      },
+      "providers": [
+        {
+          "id": "GERCOM",
+          "descriptor": {
+            "name": "GERCOM - UFPA",
+            "short_desc": "O GERCOM é um laboratório de pesquisa especializado em redes de computadores fundado em 2003.",
+            "long_desc": "Com um compromisso contínuo com a inovação, o GERCOM busca se tornar um laboratório de excelência em Redes de Computadores e Comunicação Multimídia, apoiando órgãos governamentais e empresas privadas com tecnologia de ponta e profissionais altamente qualificados.",
+            "images": [
+              {
+                "url": "https://gercom.ufpa.br/wp-content/uploads/2024/04/gercom-95x72.png",
+                "size_type": "sm"
+              }
+            ]
+          },
+          "categories": [
+            {
+              "id": "BLOCKCHAIN-COURSES",
+              "descriptor": {
+                "code": "BLOCKCHAIN-COURSES",
+                "name": "Blockchain Courses"
+              }
+            },
+            {
+              "id": "INTERNET-OF-THINGS-COURSES",
+              "descriptor": {
+                "code": "INTERNET-OF-THINGS-COURSES",
+                "name": "Internet of Things Courses"
+              }
+            },
+            {
+              "id": "SOFTWARE-DEFINED-NETWORKING-COURSES",
+              "descriptor": {
+                "code": "SOFTWARE-DEFINED-NETWORKING-COURSES",
+                "name": "Software Defined Networking Courses"
+              }
+            },
+            {
+              "id": "QUANTUM-NETWORKS-COURSES",
+              "descriptor": {
+                "code": "QUANTUM-NETWORKS-COURSES",
+                "name": "Quantum Networks Courses"
+              }
+            }
+          ],
+          "items": [
+            {
+              "id": "d4975df5-b18c-4772-80ad-368669856d52",
+              "quantity": {
+                "maximum": {
+                  "count": 1
+                }
+              },
+              "descriptor": {
+                "name": "Introdução ao Blockchain",
+                "short_desc": "Blockchain é uma tecnologia descentralizada de registro, transparente e segura por meio de blocos encadeados.",
+                "long_desc": "O curso 'Introdução ao Blockchain' oferece uma visão abrangente sobre a tecnologia blockchain, explorando seus conceitos fundamentais, arquitetura e aplicações práticas. Os participantes aprenderão sobre a estrutura de blocos, mecanismos de consenso, contratos inteligentes e casos de uso em diversas indústrias.",
+                "images": [
+                  {
+                    "url": "https://i0.wp.com/blog.dsacademy.com.br/wp-content/uploads/2018/07/O-Que-e%CC%81-a-Tecnologia-Blockchain.png?fit=702%2C389&ssl=1"
+                  }
+                ],
+                "media": [
+                  {
+                    "url": "https://example.com/blockchain-course-preview"
+                  }
+                ]
+              },
+              "creator": {
+                "descriptor": {
+                  "name": "Prof. Dr. Cássio Almeida",
+                  "short_desc": "Um teórico brilhante, obcecado pelos fundamentos da computação e pelo potencial da computação quântica.",
+                  "long_desc": "Com Ph.D. em Ciência da Computação pela USP, o Prof. Dr. Cássio Almeida é uma autoridade em redes e comunicação multimídia, com mais de 15 anos de experiência em pesquisa e docência.",
+                  "images": [
+                    {
+                      "url": "https://randomuser.me/api/portraits/men/69.jpg"
+                    }
+                  ]
+                }
+              },
+              "price": {
+                "currency": "BRL",
+                "value": "0,00"
+              },
+              "category_ids": ["BLOCKCHAIN-COURSES"],
+              "rating": "4.5",
+              "rateable": true,
+              "tags": [
+                {
+                  "descriptor": {
+                    "code": "content-metadata",
+                    "name": "Metadados do conteúdo"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "learner-level",
+                        "name": "Nível do aprendiz"
+                      },
+                      "value": "Intermediário"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "learning-objective",
+                        "name": "Objetivo de aprendizagem"
+                      },
+                      "value": "Compreender os fundamentos da tecnologia blockchain, construir um smart contract básico e analisar casos de uso prático."
+                    },
+                    {
+                      "descriptor": {
+                        "code": "prerequisite",
+                        "name": "Pré-requisito"
+                      },
+                      "value": "Conhecimento básico de lógica de programação; noções de criptografia são úteis, mas não obrigatórias"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "lang-code",
+                        "name": "Código de idioma"
+                      },
+                      "value": "pt-BR"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "course-duration",
+                        "name": "Duração do curso"
+                      },
+                      "value": "PT35H"
+                    }
+                  ],
+                  "display": true
+                }
+              ]
+            },
+            {
+              "id": "a1e6f3c4-2b3d-4e8f-9c6e-2f4b8e5d9c3a",
+              "quantity": {
+                "maximum": {
+                  "count": 1
+                }
+              },
+              "descriptor": {
+                "name": "Introdução às Redes Quânticas",
+                "short_desc": "Redes quânticas utilizam princípios da mecânica quântica para transmitir informações de forma segura.",
+                "long_desc": "O curso 'Introdução às Redes Quânticas' apresenta fundamentos e aplicações da comunicação quântica. Aborda superposição, entrelaçamento, criptografia quântica e desafios na implementação em larga escala.",
+                "images": [
+                  {
+                    "url": "https://img.odcdn.com.br/wp-content/uploads/2020/09/20200907093904.jpg"
+                  }
+                ],
+                "media": [
+                  {
+                    "url": "https://www.coursera.org/learn/quantum-networking"
+                  }
+                ]
+              },
+              "creator": {
+                "descriptor": {
+                  "name": "Prof. João Silva",
+                  "short_desc": "Especialista em computação quântica e redes de comunicação.",
+                  "long_desc": "Com Ph.D. em Física pela Universidade de Cambridge, o Prof. João Silva é referência em computação e redes quânticas, com mais de 10 anos de experiência em pesquisa.",
+                  "images": [
+                    {
+                      "url": "https://randomuser.me/api/portraits/men/20.jpg"
+                    }
+                  ]
+                }
+              },
+              "price": {
+                "currency": "BRL",
+                "value": "10,00"
+              },
+              "category_ids": ["QUANTUM-NETWORKS-COURSES"],
+              "rating": "4.7",
+              "rateable": true,
+              "tags": [
+                {
+                  "descriptor": {
+                    "code": "content-metadata",
+                    "name": "Metadados do conteúdo"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "learner-level",
+                        "name": "Nível do aprendiz"
+                      },
+                      "value": "Avançado"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "learning-objective",
+                        "name": "Objetivo de aprendizagem"
+                      },
+                      "value": "Compreender os princípios fundamentais da mecânica quântica e analisar aplicações práticas como criptografia e teleportação quântica."
+                    },
+                    {
+                      "descriptor": {
+                        "code": "prerequisite",
+                        "name": "Pré-requisito"
+                      },
+                      "value": "Conhecimento básico de física, matemática e redes de computadores"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "lang-code",
+                        "name": "Código de idioma"
+                      },
+                      "value": "pt-BR"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "course-duration",
+                        "name": "Duração do curso"
+                      },
+                      "value": "PT40H"
+                    }
+                  ],
+                  "display": true
+                }
+              ]
+            },
+            {
+              "id": "b2f7e8d9-1c3a-4b5c-6d7e-8f9a0b1c2d3e",
+              "quantity": {
+                "maximum": {
+                  "count": 1
+                }
+              },
+              "descriptor": {
+                "name": "Fundamentos de Internet das Coisas",
+                "short_desc": "IoT conecta dispositivos físicos à internet, permitindo coleta e troca de dados para automação e análise.",
+                "long_desc": "Este curso oferece uma introdução completa à Internet das Coisas, abordando arquitetura de sistemas IoT, protocolos de comunicação, sensores, atuadores, plataformas cloud e aplicações práticas em smart cities, indústria 4.0 e agricultura digital.",
+                "images": [
+                  {
+                    "url": "https://tektelic.com/wp-content/uploads/38-IoT.svg"
+                  }
+                ],
+                "media": [
+                  {
+                    "url": "https://example.com/iot-course-preview"
+                  }
+                ]
+              },
+              "creator": {
+                "descriptor": {
+                  "name": "Prof. Maria Santos",
+                  "short_desc": "Especialista em sistemas embarcados e IoT com vasta experiência em projetos industriais.",
+                  "long_desc": "Com Mestrado em Engenharia Elétrica pela UFPA e mais de 8 anos atuando em projetos de automação industrial, a Prof. Maria Santos é referência em desenvolvimento de soluções IoT para ambientes críticos.",
+                  "images": [
+                    {
+                      "url": "https://randomuser.me/api/portraits/women/32.jpg"
+                    }
+                  ]
+                }
+              },
+              "price": {
+                "currency": "BRL",
+                "value": "15,00"
+              },
+              "category_ids": ["INTERNET-OF-THINGS-COURSES"],
+              "rating": "4.8",
+              "rateable": true,
+              "tags": [
+                {
+                  "descriptor": {
+                    "code": "content-metadata",
+                    "name": "Metadados do conteúdo"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "learner-level",
+                        "name": "Nível do aprendiz"
+                      },
+                      "value": "Iniciante"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "learning-objective",
+                        "name": "Objetivo de aprendizagem"
+                      },
+                      "value": "Compreender a arquitetura de sistemas IoT, desenvolver um projeto básico avec sensores e atuadores, e integrar com plataformas cloud"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "prerequisite",
+                        "name": "Pré-requisito"
+                      },
+                      "value": "Noções básicas de programação e eletrônica"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "lang-code",
+                        "name": "Código de idioma"
+                      },
+                      "value": "pt-BR"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "course-duration",
+                        "name": "Duração do curso"
+                      },
+                      "value": "PT30H"
+                    }
+                  ],
+                  "display": true
+                }
+              ]
+            },
+            {
+              "id": "c3e8f9a0-2b4c-5d6e-7f8g-9h0i1j2k3l4m",
+              "quantity": {
+                "maximum": {
+                  "count": 1
+                }
+              },
+              "descriptor": {
+                "name": "Redes Definidas por Software: Teoria e Prática",
+                "short_desc": "SDN separa o plano de controle do plano de dados, permitindo gerenciamento centralizado e programável de redes.",
+                "long_desc": "Este curso aborda os fundamentos das Redes Definidas por Software, incluindo arquitetura SDN, protocolos como OpenFlow, controladores (OpenDaylight, ONOS), virtualização de funções de rede (NFV) e aplicações em data centers e redes corporativas.",
+                "images": [
+                  {
+                    "url": "https://huxtecnologia.com.br/wp-content/uploads/2025/04/Redes-Definidas-por-Software-SDN-A-Revolucao-da-administracao-de-Redes.png.webp"
+                  }
+                ],
+                "media": [
+                  {
+                    "url": "https://example.com/sdn-course-preview"
+                  }
+                ]
+              },
+              "creator": {
+                "descriptor": {
+                  "name": "Prof. Carlos Oliveira",
+                  "short_desc": "Especialista em arquiteturas de rede modernas e virtualização de redes.",
+                  "long_desc": "Com Doutorado em Engenharia de Redes pela UNICAMP e mais de 12 anos de experiência em pesquisa e desenvolvimento de soluções SDN/NFV para grandes operadoras de telecomunicações.",
+                  "images": [
+                    {
+                      "url": "https://randomuser.me/api/portraits/men/45.jpg"
+                    }
+                  ]
+                }
+              },
+              "price": {
+                "currency": "BRL",
+                "value": "25,00"
+              },
+              "category_ids": ["SOFTWARE-DEFINED-NETWORKING-COURSES"],
+              "rating": "4.9",
+              "rateable": true,
+              "tags": [
+                {
+                  "descriptor": {
+                    "code": "content-metadata",
+                    "name": "Metadados do conteúdo"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "learner-level",
+                        "name": "Nível do aprendiz"
+                      },
+                      "value": "Intermediário"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "learning-objective",
+                        "name": "Objetivo de aprendizagem"
+                      },
+                      "value": "Compreender a arquitetura SDN, configurar controladores OpenFlow, desenvolver aplicações SDN e implementar virtualização de funções de rede"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "prerequisite",
+                        "name": "Pré-requisito"
+                      },
+                      "value": "Conhecimento em redes de computadores, protocolos TCP/IP e experiência básica com Linux"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "lang-code",
+                        "name": "Código de idioma"
+                      },
+                      "value": "pt-BR"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "course-duration",
+                        "name": "Duração do curso"
+                      },
+                      "value": "PT45H"
+                    }
+                  ],
+                  "display": true
+                }
+              ]
+            }
+          ],
+          "fulfillments": [
+            {
+              "agent": {
+                "person": {
+                  "name": "GERCOM"
+                },
+                "contact": {
+                  "email": "contato@gercom.ufpa.br"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
