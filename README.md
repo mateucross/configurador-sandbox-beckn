@@ -1,4 +1,4 @@
-# Guia de instalação sandbox da rede beckn
+# Guia de instalação e configuração sandbox da rede beckn
 
 ### Pré-requisitos para a instalação da rede beckn sandbox
 
